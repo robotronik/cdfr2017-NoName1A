@@ -1,0 +1,268 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:robot_1A
+LIBS:carte-asser-1A-cache
+LIBS:carte-asser-1A-2016-2017-cache
+EELAYER 25 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 13850 3800 1100 4700
+U 58920823
+F0 "stepstick_part" 60
+F1 "stepstick_part.sch" 60
+F2 "enable-p1" I L 13850 4250 60 
+F3 "enable-p2" I L 13850 4400 60 
+F4 "dir-p1" I L 13850 4550 60 
+F5 "dir-p2" I L 13850 4700 60 
+F6 "step-p1" I L 13850 4850 60 
+F7 "step-p2" I L 13850 5000 60 
+F8 "pince-M0" I L 13850 5150 60 
+F9 "pince-M1" I L 13850 5300 60 
+F10 "pince-M2" I L 13850 5450 60 
+F11 "enable-r1" I L 13850 5850 60 
+F12 "enable-r2" I L 13850 6000 60 
+F13 "dir-r1" I L 13850 6150 60 
+F14 "dir-r2" I L 13850 6300 60 
+F15 "step-r2" I L 13850 6650 60 
+F16 "step-r1" I L 13850 6500 60 
+F17 "roue-M0" I L 13850 6900 60 
+F18 "roue-M1" I L 13850 7100 60 
+F19 "roue-M2" I L 13850 7300 60 
+F20 "pwr-bat" I L 13850 8150 60 
+F21 "+5V" I L 13850 8450 60 
+$EndSheet
+$Sheet
+S 13900 9150 950  1200
+U 589368F1
+F0 "motor_cc_part" 60
+F1 "motor_cc_part.sch" 60
+F2 "active-cc" I L 13900 9300 60 
+F3 "speed-cc" I L 13900 9600 60 
+F4 "dir-cc" I L 13900 9900 60 
+F5 "+7.3V" I L 13900 10200 60 
+$EndSheet
+$Sheet
+S 8150 1950 5200 950 
+U 5893DCAB
+F0 "pwr_part" 60
+F1 "pwr_part.sch" 60
+$EndSheet
+$Sheet
+S 7100 3650 6200 9800
+U 5893E375
+F0 "command_part" 60
+F1 "command_part.sch" 60
+F2 "enable-p1" O R 13300 4250 60 
+F3 "enable-p2" O R 13300 4400 60 
+F4 "dir-p1" O R 13300 4550 60 
+F5 "dir-p2" O R 13300 4700 60 
+F6 "step-p1" O R 13300 4850 60 
+F7 "step-p2" O R 13300 5000 60 
+F8 "pinceM0" O R 13300 5150 60 
+F9 "pince-M1" O R 13300 5300 60 
+F10 "pince-M2" O R 13300 5450 60 
+F11 "enable-r1" O R 13300 5850 60 
+F12 "enable-r2" O R 13300 6000 60 
+F13 "dir-r1" O R 13300 6150 60 
+F14 "dir-r2" O R 13300 6300 60 
+F15 "step-r1" O R 13300 6500 60 
+F16 "step-r2" O R 13300 6650 60 
+F17 "roue-M0" O R 13300 6900 60 
+F18 "roue-M1" O R 13300 7100 60 
+F19 "roue-M2" O R 13300 7300 60 
+F20 "TX-Pi" O L 7100 3900 60 
+F21 "RX-Pi" I L 7100 4000 60 
+F22 "TX-cervo" O L 7100 4750 60 
+F23 "RX-cervo" I L 7100 4850 60 
+$EndSheet
+Wire Wire Line
+	13300 4250 13850 4250
+Wire Wire Line
+	13300 4400 13850 4400
+Wire Wire Line
+	13300 4550 13850 4550
+Wire Wire Line
+	13850 4700 13300 4700
+Wire Wire Line
+	13300 4850 13850 4850
+Wire Wire Line
+	13850 5000 13300 5000
+Wire Wire Line
+	13300 5150 13850 5150
+Wire Wire Line
+	13850 5300 13300 5300
+Wire Wire Line
+	13300 5450 13850 5450
+Wire Wire Line
+	13300 7300 13850 7300
+Wire Wire Line
+	13850 7100 13300 7100
+Wire Wire Line
+	13300 6900 13850 6900
+Wire Wire Line
+	13850 6650 13300 6650
+Wire Wire Line
+	13300 5850 13850 5850
+Wire Wire Line
+	13300 6000 13850 6000
+Wire Wire Line
+	13850 6150 13300 6150
+Wire Wire Line
+	13300 6300 13850 6300
+Wire Wire Line
+	13850 6500 13300 6500
+Text HLabel 13300 9300 0    60   Input ~ 0
+active-cc
+Text HLabel 13300 9600 0    60   Input ~ 0
+speed-cc
+Text HLabel 13300 9900 0    60   Input ~ 0
+dir-cc
+Text HLabel 13300 10200 0    60   Input ~ 0
++7.3V
+Wire Wire Line
+	13300 9300 13900 9300
+Wire Wire Line
+	13300 9600 13900 9600
+Wire Wire Line
+	13300 9900 13900 9900
+Wire Wire Line
+	13300 10200 13900 10200
+$Comp
+L CONN_01X02 P?
+U 1 1 589450AF
+P 6400 3950
+F 0 "P?" H 6400 4100 50  0000 C CNN
+F 1 "CONN_01X02" V 6500 3950 50  0000 C CNN
+F 2 "" H 6400 3950 50  0000 C CNN
+F 3 "" H 6400 3950 50  0000 C CNN
+	1    6400 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 3900 7100 3900
+Wire Wire Line
+	7100 4000 6900 4000
+$Comp
+L D_Small D?
+U 1 1 589C7F14
+P 6800 3750
+F 0 "D?" H 6750 3830 50  0000 L CNN
+F 1 "D_Small" H 6650 3670 50  0000 L CNN
+F 2 "" V 6800 3750 50  0000 C CNN
+F 3 "" V 6800 3750 50  0000 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D?
+U 1 1 589C8045
+P 6800 4150
+F 0 "D?" H 6750 4230 50  0000 L CNN
+F 1 "D_Small" H 6650 4070 50  0000 L CNN
+F 2 "" V 6800 4150 50  0000 C CNN
+F 3 "" V 6800 4150 50  0000 C CNN
+	1    6800 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 4000 6700 4000
+Wire Wire Line
+	6700 4000 6700 4150
+Wire Wire Line
+	6900 4000 6900 4150
+Wire Wire Line
+	6900 3750 6900 3900
+Wire Wire Line
+	6600 3900 6700 3900
+Wire Wire Line
+	6700 3900 6700 3750
+$Comp
+L CONN_01X02 P?
+U 1 1 589C954C
+P 6400 4800
+F 0 "P?" H 6400 4950 50  0000 C CNN
+F 1 "CONN_01X02" V 6500 4800 50  0000 C CNN
+F 2 "" H 6400 4800 50  0000 C CNN
+F 3 "" H 6400 4800 50  0000 C CNN
+	1    6400 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4750 7100 4750
+Wire Wire Line
+	7100 4850 6900 4850
+$Comp
+L D_Small D?
+U 1 1 589C9554
+P 6800 4600
+F 0 "D?" H 6750 4680 50  0000 L CNN
+F 1 "D_Small" H 6650 4520 50  0000 L CNN
+F 2 "" V 6800 4600 50  0000 C CNN
+F 3 "" V 6800 4600 50  0000 C CNN
+	1    6800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D?
+U 1 1 589C955A
+P 6800 5000
+F 0 "D?" H 6750 5080 50  0000 L CNN
+F 1 "D_Small" H 6650 4920 50  0000 L CNN
+F 2 "" V 6800 5000 50  0000 C CNN
+F 3 "" V 6800 5000 50  0000 C CNN
+	1    6800 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 4850 6700 4850
+Wire Wire Line
+	6700 4850 6700 5000
+Wire Wire Line
+	6900 4850 6900 5000
+Wire Wire Line
+	6900 4600 6900 4750
+Wire Wire Line
+	6600 4750 6700 4750
+Wire Wire Line
+	6700 4750 6700 4600
+$EndSCHEMATC

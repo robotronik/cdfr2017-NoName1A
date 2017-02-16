@@ -29,13 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:robot_1A
-LIBS:carte-asser-1A-cache
 LIBS:carte-asser-1A-2016-2017-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 5 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -46,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nucleo-64 U?
+L Nucleo-64 U9
 U 1 1 5893E3C6
 P 7600 14450
-F 0 "U?" H 7650 14500 60  0000 C CNN
+F 0 "U9" H 7650 14500 60  0000 C CNN
 F 1 "Nucleo-64" H 11950 23450 100 0000 C CNN
 F 2 "" H 11850 25900 60  0001 C CNN
 F 3 "" H 11850 25900 60  0001 C CNN
@@ -66,42 +65,36 @@ Text HLabel 7950 5450 0    60   Input ~ 0
 RX-Pi
 Wire Wire Line
 	15750 9850 16350 9850
-Text HLabel 16350 9850 2    60   Input ~ 0
+Text HLabel 16350 9850 2    60   Output ~ 0
 speed-cc
 Wire Wire Line
 	15750 10050 16350 10050
-Text HLabel 16350 10050 2    60   Input ~ 0
+Text HLabel 16350 10050 2    60   Output ~ 0
 enable-cc
 Wire Wire Line
 	15750 9650 16350 9650
-Text HLabel 16350 9650 2    60   Input ~ 0
+Text HLabel 16350 9650 2    60   Output ~ 0
 dir-cc
-Text HLabel 16350 3850 2    60   Input ~ 0
+Text HLabel 16350 3850 2    60   Output ~ 0
 enable-p1
 Wire Wire Line
-	15750 3850 16350 3850
-Wire Wire Line
 	15750 4050 16350 4050
-Text HLabel 16350 4050 2    60   Input ~ 0
+Text HLabel 16350 4050 2    60   Output ~ 0
 enable-p2
-Wire Wire Line
-	15750 4250 16350 4250
-Text HLabel 16350 4250 2    60   Input ~ 0
+Text HLabel 16350 4250 2    60   Output ~ 0
 step-p1
-Text HLabel 16350 4850 2    60   Input ~ 0
+Text HLabel 16350 4850 2    60   Output ~ 0
 step-p2
-Text HLabel 16350 5050 2    60   Input ~ 0
+Text HLabel 16350 5050 2    60   Output ~ 0
 dir-p1
-Text HLabel 16350 5250 2    60   Input ~ 0
+Text HLabel 16350 5250 2    60   Output ~ 0
 dir-p2
-Text HLabel 16350 5450 2    60   Input ~ 0
+Text HLabel 16350 5450 2    60   Output ~ 0
 pince-M0
-Text HLabel 16350 5850 2    60   Input ~ 0
+Text HLabel 16350 5850 2    60   Output ~ 0
 pince-M1
-Text HLabel 16350 6050 2    60   Input ~ 0
+Text HLabel 16350 6050 2    60   Output ~ 0
 pince-M2
-Wire Wire Line
-	15750 4850 16350 4850
 Wire Wire Line
 	15750 5050 16350 5050
 Wire Wire Line
@@ -117,10 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	17350 5650 17350 5900
 $Comp
-L GND #PWR044
+L GND #PWR072
 U 1 1 589476FA
 P 17350 5900
-F 0 "#PWR044" H 17350 5650 50  0001 C CNN
+F 0 "#PWR072" H 17350 5650 50  0001 C CNN
 F 1 "GND" H 17350 5750 50  0000 C CNN
 F 2 "" H 17350 5900 50  0000 C CNN
 F 3 "" H 17350 5900 50  0000 C CNN
@@ -132,10 +125,10 @@ Wire Wire Line
 Wire Wire Line
 	17100 8850 17100 9050
 $Comp
-L GND #PWR045
+L GND #PWR073
 U 1 1 5894773B
 P 17100 9050
-F 0 "#PWR045" H 17100 8800 50  0001 C CNN
+F 0 "#PWR073" H 17100 8800 50  0001 C CNN
 F 1 "GND" H 17100 8900 50  0000 C CNN
 F 2 "" H 17100 9050 50  0000 C CNN
 F 3 "" H 17100 9050 50  0000 C CNN
@@ -147,10 +140,10 @@ Wire Wire Line
 Wire Wire Line
 	6850 5650 6850 5950
 $Comp
-L GND #PWR046
+L GND #PWR074
 U 1 1 5894779E
 P 6850 5950
-F 0 "#PWR046" H 6850 5700 50  0001 C CNN
+F 0 "#PWR074" H 6850 5700 50  0001 C CNN
 F 1 "GND" H 6850 5800 50  0000 C CNN
 F 2 "" H 6850 5950 50  0000 C CNN
 F 3 "" H 6850 5950 50  0000 C CNN
@@ -164,10 +157,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 10250 8650 10250
 $Comp
-L GND #PWR047
+L GND #PWR075
 U 1 1 58947867
 P 8250 8850
-F 0 "#PWR047" H 8250 8600 50  0001 C CNN
+F 0 "#PWR075" H 8250 8600 50  0001 C CNN
 F 1 "GND" H 8250 8700 50  0000 C CNN
 F 2 "" H 8250 8850 50  0000 C CNN
 F 3 "" H 8250 8850 50  0000 C CNN
@@ -175,18 +168,16 @@ F 3 "" H 8250 8850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L GND #PWR076
 U 1 1 5894787D
 P 8450 10250
-F 0 "#PWR048" H 8450 10000 50  0001 C CNN
+F 0 "#PWR076" H 8450 10000 50  0001 C CNN
 F 1 "GND" H 8450 10100 50  0000 C CNN
 F 2 "" H 8450 10250 50  0000 C CNN
 F 3 "" H 8450 10250 50  0000 C CNN
 	1    8450 10250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15750 6250 16400 6250
 Wire Wire Line
 	15750 6450 16400 6450
 Wire Wire Line
@@ -203,23 +194,23 @@ Wire Wire Line
 	15750 9250 16400 9250
 Wire Wire Line
 	15750 9450 16400 9450
-Text HLabel 16400 6250 2    60   Input ~ 0
+Text HLabel 16400 6250 2    60   Output ~ 0
 enable-r1
-Text HLabel 16400 6450 2    60   Input ~ 0
+Text HLabel 16400 6450 2    60   Output ~ 0
 enable-r2
-Text HLabel 16400 6650 2    60   Input ~ 0
+Text HLabel 16400 6650 2    60   Output ~ 0
 step-r1
-Text HLabel 16400 7050 2    60   Input ~ 0
+Text HLabel 16400 7050 2    60   Output ~ 0
 step-r2
-Text HLabel 16400 8050 2    60   Input ~ 0
+Text HLabel 16400 8050 2    60   Output ~ 0
 dir-r1
-Text HLabel 16400 8250 2    60   Input ~ 0
+Text HLabel 16400 8250 2    60   Output ~ 0
 dir-r2
-Text HLabel 16400 8450 2    60   Input ~ 0
+Text HLabel 16400 8450 2    60   Output ~ 0
 roue-M0
-Text HLabel 16400 9250 2    60   Input ~ 0
+Text HLabel 16400 9250 2    60   Output ~ 0
 roue-M1
-Text HLabel 16400 9450 2    60   Input ~ 0
+Text HLabel 16400 9450 2    60   Output ~ 0
 roue-M2
 Wire Wire Line
 	8650 3850 8250 3850
@@ -244,10 +235,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 8450 7200 8200
 $Comp
-L +5V #PWR?
+L +5V #PWR077
 U 1 1 589E3F8C
 P 7200 8200
-F 0 "#PWR?" H 7200 8050 50  0001 C CNN
+F 0 "#PWR077" H 7200 8050 50  0001 C CNN
 F 1 "+5V" H 7200 8340 50  0000 C CNN
 F 2 "" H 7200 8200 50  0000 C CNN
 F 3 "" H 7200 8200 50  0000 C CNN
@@ -313,4 +304,28 @@ Wire Wire Line
 	16400 11050 15750 11050
 Wire Wire Line
 	15750 11250 16400 11250
+Wire Wire Line
+	8650 10850 7750 10850
+Text HLabel 7750 10850 0    60   Input ~ 0
+c_couleurR
+Wire Wire Line
+	8650 11050 7750 11050
+Wire Wire Line
+	8650 11650 7750 11650
+Text HLabel 7750 11050 0    60   Input ~ 0
+c_couleurG
+Text HLabel 7750 11650 0    60   Input ~ 0
+c_couleurB
+Wire Wire Line
+	15750 6250 16400 6250
+Wire Wire Line
+	15750 4850 16350 4850
+Wire Wire Line
+	15750 4250 16350 4250
+Wire Wire Line
+	15750 3850 16350 3850
+Wire Wire Line
+	15750 9050 16350 9050
+Text HLabel 16350 9050 2    60   Output ~ 0
+led_fusée
 $EndSCHEMATC

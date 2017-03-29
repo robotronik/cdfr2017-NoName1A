@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,18 +9,17 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
    width="420mm"
    height="297mm"
    viewBox="0 0 420 297"
    version="1.1"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="A3_Landscape.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="plafond.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
-   <!-- Working space 10 10 410 287 -->
-   <!-- Title block 220 227 410 287 -->
+  <!-- Working space 10 10 410 287 -->
+  <!-- Title block 220 227 410 287 -->
   <metadata
      id="metadata849">
     <rdf:RDF>
@@ -568,8 +568,8 @@
     </linearGradient>
   </defs>
   <sodipodi:namedview
-     inkscape:window-height="757"
-     inkscape:window-width="1280"
+     inkscape:window-height="849"
+     inkscape:window-width="1600"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -580,11 +580,14 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-y="0"
      inkscape:current-layer="svg2"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:zoom="1.2049698"
+     inkscape:cx="845.93749"
+     inkscape:cy="588.83661" />
   <g
      stroke="rgb(0, 0, 0)"
      stroke-width="0.35"
@@ -1506,36 +1509,269 @@
        fill="rgb(0, 0, 0)"
        id="path672" />
   </g>
-<g id="Ortho_0_0"
-   transform="rotate(0,120,198.5) translate(120,198.5) scale(1,1)"
-  >
-<g   stroke="rgb(0, 0, 0)"
-   stroke-width="0.35"
-   stroke-linecap="butt"
-   stroke-linejoin="miter"
-   fill="none"
-   transform="scale(1,-1)"
-  >
-<path id= "1" d=" M 0 13.7 L 0 0 " />
-<path id= "2" d=" M 0 13.7 L 0 160 " />
-<path id= "3" d=" M 0 0 L 13.7 0 " />
-<path id= "4" d=" M 90 0 L 13.7 0 " />
-<path id= "5" d=" M 90 6 L 90 0 " />
-<path id= "6" d=" M 90 6 L 90 10.2 " />
-<path d="M90 13.2 A1.5 1.5 0 0 1 90 10.2" /><path id= "8" d=" M 90 17.4 L 90 13.2 " />
-<path id= "9" d=" M 90 131.3 L 90 17.4 " />
-<path d="M90 134.3 A1.5 1.5 0 0 1 90 131.3" /><path id= "11" d=" M 90 160 L 90 134.3 " />
-<path id= "12" d=" M 0 160 L 90 160 " />
-<circle cx ="23" cy ="142.4" r ="1.5" /><circle cx ="30" cy ="50" r ="8" /><circle cx ="22.74" cy ="77.15" r ="2" /><circle cx ="39.48" cy ="77.15" r ="2" /><circle cx ="25.7" cy ="88.45" r ="1.5" /><circle cx ="7.5" cy ="60.5" r ="1.5" /><circle cx ="12.8" cy ="142.4" r ="1.5" /><circle cx ="72.96" cy ="77.15" r ="2" /><circle cx ="56.22" cy ="77.15" r ="2" /><circle cx ="70" cy ="88.45" r ="1.5" /><circle cx ="73.3" cy ="132.8" r ="1.5" /><circle cx ="65.3" cy ="132.8" r ="1.5" /><circle cx ="7.5" cy ="25.5" r ="1.5" /><circle cx ="24.7" cy ="8" r ="1.5" /><circle cx ="32.7" cy ="8" r ="1.5" /><circle cx ="8" cy ="8" r ="1.5" /><circle cx ="85" cy ="145.5" r ="1.5" /><circle cx ="58.5" cy ="145.5" r ="1.5" /><circle cx ="79" cy ="21" r ="1.5" /><path d="M91.5 132.8 A1.5 1.5 0 0 1 90 134.3" /><path d="M90 131.3 A1.5 1.5 0 0 1 91.5 132.8" /><path id= "34" d=" M 180 13.7 L 180 0 " />
-<path id= "35" d=" M 180 0 L 166.3 0 " />
-<path id= "36" d=" M 90 0 L 166.3 0 " />
-<path d="M90 13.2 A1.5 1.5 0 0 0 90 10.2" /><path id= "38" d=" M 180 160 L 90 160 " />
-<path id= "39" d=" M 180 13.7 L 180 160 " />
-<circle cx ="135" cy ="40" r ="10" /><circle cx ="140.52" cy ="77.15" r ="2" /><circle cx ="123.78" cy ="77.15" r ="2" /><circle cx ="145" cy ="57.3205" r ="1.5" /><circle cx ="115" cy ="40" r ="1.5" /><circle cx ="157.26" cy ="77.15" r ="2" /><circle cx ="107.04" cy ="77.15" r ="2" /><circle cx ="106.7" cy ="132.8" r ="1.5" /><circle cx ="110" cy ="88.45" r ="1.5" /><circle cx ="114.7" cy ="132.8" r ="1.5" /><circle cx ="154.3" cy ="88.45" r ="1.5" /><circle cx ="167.2" cy ="142.4" r ="1.5" /><circle cx ="157" cy ="142.4" r ="1.5" /><circle cx ="155.3" cy ="8" r ="1.5" /><circle cx ="147.3" cy ="8" r ="1.5" /><circle cx ="145" cy ="22.6795" r ="1.5" /><circle cx ="121.5" cy ="145.5" r ="1.5" /><circle cx ="101" cy ="21" r ="1.5" /><circle cx ="95" cy ="145.5" r ="1.5" /><circle cx ="172.5" cy ="25.5" r ="1.5" /><circle cx ="172.5" cy ="60.5" r ="1.5" /><circle cx ="172" cy ="8" r ="1.5" /></g>
-</g>
-
-
-
+  <g
+     id="Ortho_0_0"
+     transform="rotate(0,120,198.5) translate(120,198.5) scale(1,1)">
+    <g
+       stroke="rgb(0, 0, 0)"
+       stroke-width="0.35"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       fill="none"
+       transform="scale(1,-1)"
+       id="g264">
+      <path
+         id="1"
+         d=" M 0 13.7 L 0 0 " />
+      <path
+         id="2"
+         d=" M 0 13.7 L 0 160 " />
+      <path
+         id="3"
+         d=" M 0 0 L 13.7 0 " />
+      <path
+         id="4"
+         d=" M 90 0 L 13.7 0 " />
+      <path
+         d="M90 13.2 A1.5 1.5 0 0 1 90 10.2"
+         id="path272" />
+      <path
+         d="M90 134.3 A1.5 1.5 0 0 1 90 131.3"
+         id="path276" />
+      <path
+         id="12"
+         d=" M 0 160 L 90 160 " />
+      <circle
+         cx="23"
+         cy="142.4"
+         r="1.5"
+         id="circle280" />
+      <circle
+         cx="30"
+         cy="50"
+         r="8"
+         id="circle282" />
+      <circle
+         cx="22.74"
+         cy="77.15"
+         r="2"
+         id="circle284" />
+      <circle
+         cx="39.48"
+         cy="77.15"
+         r="2"
+         id="circle286" />
+      <circle
+         cx="25.7"
+         cy="88.45"
+         r="1.5"
+         id="circle288" />
+      <circle
+         cx="7.5"
+         cy="60.5"
+         r="1.5"
+         id="circle290" />
+      <circle
+         cx="12.8"
+         cy="142.4"
+         r="1.5"
+         id="circle292" />
+      <circle
+         cx="72.96"
+         cy="77.15"
+         r="2"
+         id="circle294" />
+      <circle
+         cx="56.22"
+         cy="77.15"
+         r="2"
+         id="circle296" />
+      <circle
+         cx="70"
+         cy="88.45"
+         r="1.5"
+         id="circle298" />
+      <circle
+         cx="73.3"
+         cy="132.8"
+         r="1.5"
+         id="circle300" />
+      <circle
+         cx="65.3"
+         cy="132.8"
+         r="1.5"
+         id="circle302" />
+      <circle
+         cx="7.5"
+         cy="25.5"
+         r="1.5"
+         id="circle304" />
+      <circle
+         cx="24.7"
+         cy="8"
+         r="1.5"
+         id="circle306" />
+      <circle
+         cx="32.7"
+         cy="8"
+         r="1.5"
+         id="circle308" />
+      <circle
+         cx="8"
+         cy="8"
+         r="1.5"
+         id="circle310" />
+      <circle
+         cx="85"
+         cy="145.5"
+         r="1.5"
+         id="circle312" />
+      <circle
+         cx="58.5"
+         cy="145.5"
+         r="1.5"
+         id="circle314" />
+      <circle
+         cx="79"
+         cy="21"
+         r="1.5"
+         id="circle316" />
+      <path
+         d="M91.5 132.8 A1.5 1.5 0 0 1 90 134.3"
+         id="path318" />
+      <path
+         d="M90 131.3 A1.5 1.5 0 0 1 91.5 132.8"
+         id="path320" />
+      <path
+         id="34"
+         d=" M 180 13.7 L 180 0 " />
+      <path
+         id="35"
+         d=" M 180 0 L 166.3 0 " />
+      <path
+         id="36"
+         d=" M 90 0 L 166.3 0 " />
+      <path
+         d="M90 13.2 A1.5 1.5 0 0 0 90 10.2"
+         id="path325" />
+      <path
+         id="38"
+         d=" M 180 160 L 90 160 " />
+      <path
+         id="39"
+         d=" M 180 13.7 L 180 160 " />
+      <circle
+         cx="135"
+         cy="40"
+         r="10"
+         id="circle329" />
+      <circle
+         cx="140.52"
+         cy="77.15"
+         r="2"
+         id="circle331" />
+      <circle
+         cx="123.78"
+         cy="77.15"
+         r="2"
+         id="circle333" />
+      <circle
+         cx="145"
+         cy="57.3205"
+         r="1.5"
+         id="circle335" />
+      <circle
+         cx="115"
+         cy="40"
+         r="1.5"
+         id="circle337" />
+      <circle
+         cx="157.26"
+         cy="77.15"
+         r="2"
+         id="circle339" />
+      <circle
+         cx="107.04"
+         cy="77.15"
+         r="2"
+         id="circle341" />
+      <circle
+         cx="106.7"
+         cy="132.8"
+         r="1.5"
+         id="circle343" />
+      <circle
+         cx="110"
+         cy="88.45"
+         r="1.5"
+         id="circle345" />
+      <circle
+         cx="114.7"
+         cy="132.8"
+         r="1.5"
+         id="circle347" />
+      <circle
+         cx="154.3"
+         cy="88.45"
+         r="1.5"
+         id="circle349" />
+      <circle
+         cx="167.2"
+         cy="142.4"
+         r="1.5"
+         id="circle351" />
+      <circle
+         cx="157"
+         cy="142.4"
+         r="1.5"
+         id="circle353" />
+      <circle
+         cx="155.3"
+         cy="8"
+         r="1.5"
+         id="circle355" />
+      <circle
+         cx="147.3"
+         cy="8"
+         r="1.5"
+         id="circle357" />
+      <circle
+         cx="145"
+         cy="22.6795"
+         r="1.5"
+         id="circle359" />
+      <circle
+         cx="121.5"
+         cy="145.5"
+         r="1.5"
+         id="circle361" />
+      <circle
+         cx="101"
+         cy="21"
+         r="1.5"
+         id="circle363" />
+      <circle
+         cx="95"
+         cy="145.5"
+         r="1.5"
+         id="circle365" />
+      <circle
+         cx="172.5"
+         cy="25.5"
+         r="1.5"
+         id="circle367" />
+      <circle
+         cx="172.5"
+         cy="60.5"
+         r="1.5"
+         id="circle369" />
+      <circle
+         cx="172"
+         cy="8"
+         r="1.5"
+         id="circle371" />
+    </g>
+  </g>
   <g
      inkscape:label="Layer 1"
      id="layer1"
@@ -1683,4 +1919,3 @@
          y="243.26292">SUBTITLE</tspan></text>
   </g>
 </svg>
-

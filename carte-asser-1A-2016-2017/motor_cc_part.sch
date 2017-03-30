@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:carte-asser-1A-2016-2017-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -44,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L H-bridge H1
-U 1 1 58937B34
-P 5800 4250
-F 0 "H1" H 6950 4550 60  0000 C CNN
-F 1 "H-bridge" H 7000 4950 60  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm" H 8150 6350 60  0001 C CNN
-F 3 "" H 8150 6350 60  0001 C CNN
-	1    5800 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 3500 5800 3500
 Wire Wire Line
@@ -131,10 +121,10 @@ Wire Wire Line
 Connection ~ 5600 4500
 Connection ~ 2550 3850
 $Comp
-L CONN_01X02 P9
+L CONN_01X02 P8
 U 1 1 589380DD
 P 3250 3550
-F 0 "P9" H 3250 3700 50  0000 C CNN
+F 0 "P8" H 3250 3700 50  0000 C CNN
 F 1 "cc-motor" V 3350 3550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3250 3550 50  0001 C CNN
 F 3 "" H 3250 3550 50  0000 C CNN
@@ -204,4 +194,23 @@ F 3 "" H 5950 4750 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3050 3600 3050 4000
+$Comp
+L H-bridge H1
+U 1 1 58D7D568
+P 5800 4250
+F 0 "H1" H 6950 4550 60  0000 C CNN
+F 1 "H-bridge" H 7000 4950 60  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 8150 6350 60  0001 C CNN
+F 3 "" H 8150 6350 60  0001 C CNN
+	1    5800 4250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8100 3500
+NoConn ~ 8100 3600
+NoConn ~ 8100 3700
+NoConn ~ 8100 3800
+NoConn ~ 8100 3900
+NoConn ~ 8100 4000
+NoConn ~ 8100 4100
+NoConn ~ 8100 4200
 $EndSCHEMATC

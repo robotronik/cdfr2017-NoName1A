@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:carte-asser-1A-2016-2017-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -67,6 +68,8 @@ F16 "step-r1" I L 13850 6500 60
 F17 "roue-M0" I L 13850 6900 60 
 F18 "roue-M1" I L 13850 7100 60 
 F19 "roue-M2" I L 13850 7300 60 
+F20 "Carte_Fault_1" I L 13850 7500 60 
+F21 "Carte_Fault_2" I L 13850 7700 60 
 $EndSheet
 $Sheet
 S 13900 9150 950  1200
@@ -83,17 +86,6 @@ U 5893DCAB
 F0 "pwr_part" 60
 F1 "pwr_part.sch" 60
 $EndSheet
-$Comp
-L +15V #PWR01
-U 1 1 589D46CA
-P 6600 5400
-F 0 "#PWR01" H 6600 5250 50  0001 C CNN
-F 1 "+15V" H 6600 5540 50  0000 C CNN
-F 2 "" H 6600 5400 50  0000 C CNN
-F 3 "" H 6600 5400 50  0000 C CNN
-	1    6600 5400
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5200 8300 1450 1900
 U 58A040B6
@@ -164,6 +156,8 @@ F42 "speed-cc" O R 13300 9600 60
 F43 "dir-cc" O R 13300 9900 60 
 F44 "led_fusée" O L 7100 12350 60 
 F45 "dir-servo" O L 7100 4650 60 
+F46 "Carte_Fault_1" O R 13300 7500 60 
+F47 "Carte_Fault_2" O R 13300 7700 60 
 $EndSheet
 $Sheet
 S 5250 6450 1400 1250
@@ -178,10 +172,10 @@ F6 "c-distance5" O R 6650 7200 60
 F7 "c-distance6" O R 6650 7350 60 
 $EndSheet
 $Comp
-L CONN_01X02 P1
+L CONN_01X02 P2
 U 1 1 58B3634A
 P 6200 12400
-F 0 "P1" H 6200 12550 50  0000 C CNN
+F 0 "P2" H 6200 12550 50  0000 C CNN
 F 1 "led-fusée" V 6300 12400 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6200 12400 50  0001 C CNN
 F 3 "" H 6200 12400 50  0000 C CNN
@@ -189,10 +183,10 @@ F 3 "" H 6200 12400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R16
+L R R1
 U 1 1 58B38556
 P 6550 12850
-F 0 "R16" V 6630 12850 50  0000 C CNN
+F 0 "R1" V 6630 12850 50  0000 C CNN
 F 1 "1k" V 6550 12850 50  0000 C CNN
 F 2 "Discret:R4-LARGE_PADS" V 6480 12850 50  0001 C CNN
 F 3 "" H 6550 12850 50  0000 C CNN
@@ -200,10 +194,10 @@ F 3 "" H 6550 12850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR01
 U 1 1 58B388BC
 P 6550 13100
-F 0 "#PWR02" H 6550 12850 50  0001 C CNN
+F 0 "#PWR01" H 6550 12850 50  0001 C CNN
 F 1 "GND" H 6550 12950 50  0000 C CNN
 F 2 "" H 6550 13100 50  0000 C CNN
 F 3 "" H 6550 13100 50  0000 C CNN
@@ -256,10 +250,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 3900 7100 3900
 Wire Wire Line
-	6000 5850 7100 5850
-Wire Wire Line
-	6000 5950 7100 5950
-Wire Wire Line
 	6650 8450 7100 8450
 Wire Wire Line
 	7100 8600 6650 8600
@@ -275,10 +265,6 @@ Wire Wire Line
 	6650 11050 7100 11050
 Wire Wire Line
 	7100 11200 6650 11200
-Wire Wire Line
-	6000 5750 6600 5750
-Wire Wire Line
-	6600 5750 6600 5400
 Wire Wire Line
 	7100 6750 6650 6750
 Wire Wire Line
@@ -328,30 +314,20 @@ F 3 "" H 6400 3950 50  0000 C CNN
 	1    6400 3950
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X04 P2
-U 1 1 58BB0B25
-P 5800 5900
-F 0 "P2" H 5800 6150 50  0000 C CNN
-F 1 "Balise" V 5900 5900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5800 5900 50  0001 C CNN
-F 3 "" H 5800 5900 50  0000 C CNN
-	1    5800 5900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	6000 6050 6600 6050
+	13300 7500 13850 7500
 Wire Wire Line
-	6600 6050 6600 6150
-$Comp
-L GND #PWR03
-U 1 1 58BB0E74
-P 6600 6150
-F 0 "#PWR03" H 6600 5900 50  0001 C CNN
-F 1 "GND" H 6600 6000 50  0000 C CNN
-F 2 "" H 6600 6150 50  0000 C CNN
-F 3 "" H 6600 6150 50  0000 C CNN
-	1    6600 6150
-	1    0    0    -1  
-$EndComp
+	13300 7700 13850 7700
+$Sheet
+S 5250 5650 1350 550 
+U 58D47F79
+F0 "balise_part" 60
+F1 "balise_part.sch" 60
+F2 "Tx-balise" I R 6600 5850 60 
+F3 "Rx-balise" O R 6600 5950 60 
+$EndSheet
+Wire Wire Line
+	6600 5950 7100 5950
+Wire Wire Line
+	7100 5850 6600 5850
 $EndSCHEMATC

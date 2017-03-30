@@ -1,4 +1,4 @@
-update=jeu. 09 févr. 2017 20:49:58 CET
+update=16/03/2017 17:43:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/robotronik/Bureau/robotronik/cdfr2017-NoName1A/robot_1A
-LibName32=carte-asser-1A-cache
+LibName31=C:/Users/Fabien/Documents/Robotronik/cdfr2017-NoName1A/robot_1A
+LibName32=robot_1A

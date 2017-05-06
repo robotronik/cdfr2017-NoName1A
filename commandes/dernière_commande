@@ -1,0 +1,24 @@
+RS:
+ressorts pour la fusée
+751809
+74HC126: 6630039
+2*74HC04: 2175550
+support CI 14 broches: 6742438
+ligne: 2677400
+16 broches:6742432
+scotch: 1706838
+pont en h: 7140613
+
+molex male:
+4 coudé: 6795458
+4 droit: 4838483
+3 droit:4838477
+2 droit: 4838461
+
+molex femelle:
+4: 2964956 *4
+3: 2964940 *2
+2: 2964934 *2
+
+contacts:
+467598 *2

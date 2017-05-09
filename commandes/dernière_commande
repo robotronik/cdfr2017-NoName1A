@@ -8,7 +8,6 @@ ligne: 2677400
 16 broches:6742432
 scotch: 1706838
 pont en h: 7140613
-4* résistances 5Mohms: 8514920
 
 molex male:
 4 coudé: 6795458
@@ -23,6 +22,9 @@ molex femelle:
 
 contacts:
 467598 *2
+<<<<<<< HEAD
 
 penser aux prises jack
 et 2 piles 9V pour les multi-mètres
+=======
+>>>>>>> parent of 46b81a2... ajout résistances

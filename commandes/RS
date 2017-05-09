@@ -9,18 +9,18 @@ Composants rs:
 connecteur molex:
 10* 483-8483
 10* 483-8477
-10* 483-8461
+10* 483-8461 (not ok)
 fiche femelle:
 10*296-4956
 10*296-4940
 10*296-4934
 100*797-8925
-1*raspberry pi 3 B: 896-8660
-1*caméra: Raspberry Pi Camera V2 913-2664
+1*raspberry pi 3 B: 896-8660 (not ok)
+1*caméra: Raspberry Pi Camera V2 913-2664 (not ok)
 5*74HC126:539-9484
 5*74HC04: 217-5550
 1*multiplexeur analogique CD4051B (8 voies): 709-1977
-1*CD4067B (16 voies): 662-2707
+1*CD4067B (16 voies): 662-2707 (not ok)
 diode IR: 25* 810-8247
 Phototransistor:20* 665-5397
 supports CI: 

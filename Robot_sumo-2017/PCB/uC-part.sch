@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:arduino-nano
 LIBS:l293
+LIBS:trou-3
 LIBS:Robot_sumo-cache
 EELAYER 25 0
 EELAYER END
@@ -189,9 +190,9 @@ NoConn ~ 6550 4700
 NoConn ~ 4100 2500
 NoConn ~ 4100 2700
 Text HLabel 6800 2300 2    60   Input ~ 0
-Echo
-Text HLabel 6800 2500 2    60   Input ~ 0
 Trig
+Text HLabel 6800 2500 2    60   Input ~ 0
+Echo
 Wire Wire Line
 	6550 2300 6800 2300
 Wire Wire Line
@@ -221,4 +222,37 @@ NoConn ~ 6550 2900
 NoConn ~ 6550 3100
 NoConn ~ 6550 3300
 NoConn ~ 6550 3500
+$Comp
+L trou-3 U5
+U 1 1 59580D66
+P 4800 1050
+F 0 "U5" H 4800 1050 60  0000 C CNN
+F 1 "trou-3" H 4800 1200 60  0000 C CNN
+F 2 "Arduino-nano:Trou-3" H 4800 1050 60  0001 C CNN
+F 3 "" H 4800 1050 60  0001 C CNN
+	1    4800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L trou-3 U6
+U 1 1 59580E81
+P 6000 1000
+F 0 "U6" H 6000 1000 60  0000 C CNN
+F 1 "trou-3" H 6000 1150 60  0000 C CNN
+F 2 "Arduino-nano:Trou-3" H 6000 1000 60  0001 C CNN
+F 3 "" H 6000 1000 60  0001 C CNN
+	1    6000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L trou-3 U7
+U 1 1 59580ED4
+P 6950 1000
+F 0 "U7" H 6950 1000 60  0000 C CNN
+F 1 "trou-3" H 6950 1150 60  0000 C CNN
+F 2 "Arduino-nano:Trou-3" H 6950 1000 60  0001 C CNN
+F 3 "" H 6950 1000 60  0001 C CNN
+	1    6950 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

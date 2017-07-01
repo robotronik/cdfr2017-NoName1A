@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:arduino-nano
 LIBS:l293
+LIBS:trou-3
 LIBS:Robot_sumo-cache
 EELAYER 25 0
 EELAYER END
@@ -293,13 +294,13 @@ Wire Wire Line
 Connection ~ 4600 2450
 $Comp
 L LM324 U2
-U 3 1 5946A538
+U 2 1 5946A538
 P 9200 2350
 F 0 "U2" H 9200 2550 50  0000 L CNN
 F 1 "LM324" H 9200 2150 50  0000 L CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9150 2450 50  0001 C CNN
 F 3 "" H 9250 2550 50  0001 C CNN
-	3    9200 2350
+	2    9200 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -538,13 +539,13 @@ Wire Wire Line
 Connection ~ 10150 2350
 $Comp
 L LM324 U2
-U 2 1 5946BB30
+U 3 1 5946BB30
 P 3900 5200
 F 0 "U2" H 3900 5400 50  0000 L CNN
 F 1 "LM324" H 3900 5000 50  0000 L CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3850 5300 50  0001 C CNN
 F 3 "" H 3950 5400 50  0001 C CNN
-	2    3900 5200
+	3    3900 5200
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -1,4 +1,4 @@
-update=ven. 16 juin 2017 15:26:16 CEST
+update=sam. 01 juil. 2017 23:00:07 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/maxime/Bureau/Robotique/Robot_sumo/composants/arduino-nano
 LibName32=l293
+LibName33=trou-3

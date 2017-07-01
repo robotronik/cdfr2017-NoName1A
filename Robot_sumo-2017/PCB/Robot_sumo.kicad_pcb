@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 104.924999 89.924999 175.075001 180.075001)
+    (links 128)
+    (no_connects 2)
+    (area 104.924999 89.855 175.595 180.075001)
     (thickness 1.6)
     (drawings 5)
     (tracks 570)
@@ -610,7 +610,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 58765D05) (tstamp 59467561)
-    (at 130.95 166.88 270)
+    (at 131.72 167 270)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5942F43E/5946A556)
@@ -6519,8 +6519,8 @@
   (gr_line (start 105 90) (end 105 180) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 105 90) (end 175 90) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 130.95 171.88) (end 128.14 174.69) (width 0.5) (layer B.Cu) (net 1))
-  (segment (start 128.14 174.69) (end 126.83 174.69) (width 0.5) (layer B.Cu) (net 1))
+  (segment (start 131.72 172) (end 129.03 174.69) (width 0.5) (layer B.Cu) (net 1))
+  (segment (start 129.03 174.69) (end 126.83 174.69) (width 0.5) (layer B.Cu) (net 1))
   (segment (start 137.65 170.54) (end 148.09 170.54) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 148.09 170.54) (end 150.15 172.6) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 133.5 174.69) (end 137.65 170.54) (width 0.5) (layer F.Cu) (net 1))
@@ -6708,8 +6708,8 @@
   (segment (start 116.97 150.13) (end 116.97 153.12) (width 0.5) (layer B.Cu) (net 4))
   (segment (start 114.57 147.73) (end 116.97 150.13) (width 0.5) (layer B.Cu) (net 4))
   (segment (start 114.57 147.42) (end 114.57 147.73) (width 0.5) (layer B.Cu) (net 4))
-  (segment (start 130.95 166.88) (end 130.150001 166.080001) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 130.150001 166.080001) (end 130.150001 165.500001) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 130.150001 165.500001) (end 130.220001 165.500001) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 130.220001 165.500001) (end 131.72 167) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 130.150001 165.500001) (end 129.4 164.75) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 126.45 159.127208) (end 126.46 159.137208) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 126.46 159.137208) (end 126.46 161.41) (width 0.5) (layer B.Cu) (net 5))

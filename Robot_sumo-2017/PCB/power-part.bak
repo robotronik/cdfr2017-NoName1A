@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:arduino-nano
 LIBS:l293
-LIBS:trou-3
 LIBS:Robot_sumo-cache
 EELAYER 25 0
 EELAYER END

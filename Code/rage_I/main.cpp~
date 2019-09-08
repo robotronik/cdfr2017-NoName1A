@@ -1,0 +1,38 @@
+#include "mbed.h"
+#include "XL_320.h"
+
+//01 a V2
+
+int main() {
+	//Serial s(PC_10,PC_11,V3);
+	XL servo(PC_12,PD_2,V2,PA_13);
+	//Pap R1(PA_14,PA_15,PF_1);
+	//Pap R2(PC_2,PC_3,PF_1);
+	//Pap P1(PA_1,PA_4,PC_0); 
+	//Pap P2(PB_0,PC_1,PC_0); 
+	DigitalOut led(LED1);
+	//DigitalOut test(PA_13);
+
+	//servo.ecom(BROADCAST,ID,1);
+	//servo.ecom(0x01,BAUDRATE,2);
+	servo.com(0x01,LED_XL,LED_BLUE);	
+	
+	/*while(1)	
+	{
+		servo.com(BROADCAST,LED_XL,LED_RED);
+		servo.com(BROADCAST,GOAL_POSITION,0);
+		led=!led;
+		wait(1.0);
+		
+		servo.com(BROADCAST,LED_XL,LED_BLUE_GREEN);
+		servo.com(BROADCAST,GOAL_POSITION,1023);
+		led=!led;
+		wait(1.0);
+
+		servo.com(BROADCAST,LED_XL,LED_BLUE);
+		servo.com(BROADCAST,GOAL_POSITION,511);
+		led=!led;
+		wait(1.0);
+	}*/
+
+}
